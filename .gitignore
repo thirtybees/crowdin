@@ -1,0 +1,11 @@
+config*.xml
+packs/*
+!packs/index.php
+tmp/*
+!tmp/index.php
+.idea/
+node_modules/
+/*crowdin*.zip
+yarn.lock
+vendor/**
+*crowdin*.zip
