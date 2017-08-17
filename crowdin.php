@@ -264,8 +264,8 @@ class Crowdin extends Module
             $this->context->employee->save();
             unset($this->context->cookie->incontext_previous_id_lang);
 
-            Configuration::updateValue(static::JIPT_FRONT_OFFICE, true);
-            Configuration::updateValue(static::JIPT_BACK_OFFICE, true);
+            Configuration::updateValue(static::JIPT_FRONT_OFFICE, false);
+            Configuration::updateValue(static::JIPT_BACK_OFFICE, false);
 
             die(json_encode(['success' => true]));
         }
