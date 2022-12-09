@@ -55,6 +55,7 @@ class Crowdin extends Module
         $this->tab = 'administration';
 
         $this->bootstrap = true;
+        $this->need_instance = false;
 
         parent::__construct();
 
